@@ -184,7 +184,7 @@ function setupOrderSubmit() {
       notes ? `Notes: ${notes}` : null
     ].filter(Boolean).join('\n');
 
-    const whatsappUrl = `https://wa.me/276603290?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/27696603290?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank', 'noopener,noreferrer');
   });
 }
