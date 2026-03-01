@@ -219,6 +219,30 @@ h2 { margin: 0 0 8px; font-size: 32px; }
   background: #121218;
 }
 
+.menu-meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+
+.menu-category {
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.menu-addon {
+  font-size: 11px;
+  color: #1a1a1a;
+  background: var(--accent-2);
+  border-radius: 999px;
+  padding: 3px 8px;
+  font-weight: 700;
+}
+
 .menu-item h3 { margin: 0 0 6px; }
 .menu-item p { color: var(--muted); min-height: 44px; }
 
@@ -302,6 +326,12 @@ textarea { min-height: 96px; resize: vertical; }
   font-size: 19px;
   border-top: 1px solid var(--line);
   padding-top: 14px;
+}
+
+.menu-actions {
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
 }
 
 .two-col {
