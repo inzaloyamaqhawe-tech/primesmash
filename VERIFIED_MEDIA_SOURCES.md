@@ -8,6 +8,7 @@ This project intentionally avoids stock photos from unrelated businesses.
   - Address: 4 Meadow Ave, Equestria, Pretoria, 0184
   - Phone: +27 6603290
   - Rating/reviews shown publicly in screenshot
+  - Google photos fallback link: https://www.google.com/search?tbm=isch&q=Prime+Smash+Pretoria
 - Instagram handle shown in screenshot and linked in site:
   - https://www.instagram.com/_prime_smash_/
 - Facebook page shown in screenshot and linked in site:
@@ -15,6 +16,7 @@ This project intentionally avoids stock photos from unrelated businesses.
 
 ## Photo policy used in this build
 - No random stock photos from unrelated restaurants are used.
+- Google business photos are allowed as fallback when social pages are inaccessible.
 - To keep legal/copyright safe, add business-owned images into `assets/verified/` only.
 - Recommended filenames:
   - `assets/verified/prime-smash-1.jpg`
